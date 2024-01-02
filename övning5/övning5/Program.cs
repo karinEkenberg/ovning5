@@ -66,12 +66,6 @@ namespace ConsoleApp3
                         {
                             sum += tärningar.Count / slag;
                         }
-                        /*jag gjorde den här foreach loopen och försökte tolka de tips du gav mig för jag hittar
-                         verkligen inte något när jag försöker kolla msdn, det ända jag hittar när jag googlar är
-                        personer som gjort samma uppgift och jag kan ju inte kopiera deras kod så klart. och
-                        jag vet ju inte hur de kommit fram till sin kod heller så jag har inte direkt kollat den
-                        koden särskilt nogrannt. koden jag la in fungerar inte riktigt heller men jag tänkte
-                        att jag lägger in det jag kommit fram till. något händer i alla fall med uträkningen.*/
                         if (tärningar.Count <= 0)
                         {
                             Console.WriteLine("\n\tDet finns inga sparade tärningsrull! ");
